@@ -1,16 +1,25 @@
-import sayIt from './part';
-sayIt();
+// import sayIt from './part';
+// sayIt();
 
+// import { tns } from './tiny-slider';
+
+window.onload = function () {
+  var slider = tns({
+    container: document.querySelector('.slider'),
+    items:3,
+    slideBy: 'page'
+  })
+}
 // import style from '../scss/main.scss';
-// function main() {
-//   var demo = document.querySelector('.demo');
-//   demo.classList.add('red');
-// }
+function main() {
+  var demo = document.querySelector('.demo');
+  demo.classList.add('red');
+}
 
 // import polyfill from 'dynamic-polyfill'
 // polyfill({
-//   fills: 'Element.prototype.classList',
-//   options: 'gated',
+//   fills: ['Symbol.match', 'fetch'],
+//   options: ['gated'],
 //   minify: false,
 //   afterFill() {
 //     main();

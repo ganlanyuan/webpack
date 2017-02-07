@@ -44,7 +44,7 @@ module.exports = {
 
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin(),
+    // new webpack.optimize.UglifyJsPlugin(),
     new ExtractTextPlugin({
       filename: '/css/[name].css',
       allChunks: true,
@@ -54,7 +54,7 @@ module.exports = {
   devServer: {
     contentBase: './',
     historyApiFallback: true,
-    host: '192.168.1.110',
+    host: '10.0.0.59',
     port: 2000,
     proxy: {
       '/api': "http://192.168.1.110:2000"
