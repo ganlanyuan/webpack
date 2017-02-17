@@ -54,11 +54,9 @@ module.exports = {
   devServer: {
     contentBase: './',
     historyApiFallback: true,
-    host: '10.0.0.59',
+    // host: '10.0.0.59',
+    host: '192.168.1.110',
     port: 2000,
-    proxy: {
-      '/api': "http://192.168.1.110:2000"
-    },
     stats: "errors-only",
     // watch: true,
     watchContentBase: true,

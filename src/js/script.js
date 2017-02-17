@@ -1,7 +1,4 @@
-// import sayIt from './part';
-// sayIt();
-
-// import { tns } from './tiny-slider';
+import { tns } from '../../bower_components/tiny-slider/src/tiny-slider.dev';
 
 window.onload = function () {
   var slider = tns({
@@ -11,10 +8,10 @@ window.onload = function () {
   })
 }
 // import style from '../scss/main.scss';
-function main() {
-  var demo = document.querySelector('.demo');
-  demo.classList.add('red');
-}
+// function main() {
+//   var demo = document.querySelector('.demo');
+//   demo.classList.add('red');
+// }
 
 // import polyfill from 'dynamic-polyfill'
 // polyfill({

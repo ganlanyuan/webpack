@@ -1,0 +1,21 @@
+{
+  "name": "webpack-test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "William Lin 22 <ganlanyuan@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ganlanyuan/webpack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tiny-slider": "module",
+    "go-native": "^1.0.0"
+  }
+}

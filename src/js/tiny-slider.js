@@ -2134,4 +2134,4 @@ var tns = (function () {
   return core;
 })();
 
-// export { tns };
+export { tns };
